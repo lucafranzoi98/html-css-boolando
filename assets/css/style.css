@@ -27,7 +27,7 @@
     --font-family-social: 'Montserrat SemiBold', sans-serif;
     --font-size-social: .875rem;
     --font-family-privacy: 'Montserrat Regular', sans-serif;
-    --font-size-privacy: .875rem;
+    --font-size-privacy: 11px;
 }
 
 .flex{
@@ -51,6 +51,10 @@ header{
     width: calc(100% / 12 * 4);
 }
 
+.col-6{
+    width: calc(100% / 12 * 6);
+}
+
 .col-8{
     width: calc(100% / 12 * 8);
 }
@@ -58,6 +62,7 @@ header{
 .container{
     width: 70%;
     margin: auto;
+    height: 100%;
 }
 
 a{
@@ -68,6 +73,7 @@ footer{
     height: 70px;
     background-color: var(--dark);
     margin-top: 60px;
+    color: white;
 }
 /* End utilities */
 
@@ -76,7 +82,7 @@ header > .flex{
     line-height: 70px;
 }
 
-header a{
+header a, footer a{
     color: white;
 }
 
@@ -198,4 +204,53 @@ main img{
 
 .green{
     background-color: var(--green);
+}
+/* End Main */
+
+/* Start Footer */
+
+
+.site-name{
+    font-family: var(--font-family-site-name);
+    font-size: var(--font-size-site-name);
+}
+
+.privacy{
+    font-family: var(--font-family-privacy);
+    font-size: var(--font-size-privacy);
+}
+
+.privacy a{
+    color: white;
+    margin: 0 .3rem;
+}
+
+.privacy a:first-of-type{
+    margin-left: 0;
+}
+
+.footer-align{
+    line-height: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+}
+
+.social{
+    font-family: var(--font-family-social);
+    font-size: var(--font-size-social);
+}
+
+.social-icon a{
+    margin: 0 .15rem;
+}
+
+.social-icon a:last-of-type{
+    margin-right: 0;
+}
+
+.right-footer{
+    position: absolute;
+    right: 0;
 }
