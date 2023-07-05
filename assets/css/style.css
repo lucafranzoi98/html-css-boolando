@@ -1,0 +1,104 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Start utilities */
+:root{
+    --primary: #ff6801;
+    --red: #fe0100;
+    --green: #018001;
+    --dark: #1b1b1a;
+    --font-family-nav: 'Montserrat SemiBold', sans-serif;
+    --font-size-nav: 1rem;
+    --font-family-item: 'Montserrat SemiBold', sans-serif;
+    --font-size-item: 1rem;
+    --font-family-brand: 'Montserrat Medium', sans-serif;
+    --font-size-brand: .875rem;
+    --font-family-price: 'Montserrat Medium', sans-serif;
+    --font-size-price: .875rem;
+    --font-family-discount: 'Montserrat Bold', sans-serif;
+    --font-size-discount: .875rem;
+    --font-family-label: 'Montserrat Regular', sans-serif;
+    --font-size-label: .875rem;
+    --font-family-site-name: 'Montserrat SemiBold', sans-serif;
+    --font-size-site-name: 1.125rem;
+    --font-family-social: 'Montserrat SemiBold', sans-serif;
+    --font-size-social: .875rem;
+    --font-family-privacy: 'Montserrat Regular', sans-serif;
+    --font-size-privacy: .875rem;
+}
+
+.flex{
+    display: flex;
+}
+
+header{
+    position: sticky;
+    height: 70px;
+    background-color: var(--primary);
+}
+
+.col-2{
+    width: calc(100% / 12 * 2);
+}
+
+.col-4{
+    width: calc(100% / 12 * 4);
+}
+
+.col-8{
+    width: calc(100% / 12 * 8);
+}
+
+.container{
+    width: 70%;
+    margin: auto;
+}
+
+a{
+    text-decoration: none;
+}
+
+/* End utilities */
+
+/* Start Header */
+header > .flex{
+    line-height: 70px;
+}
+
+header a{
+    color: white;
+}
+
+nav > a{
+    font-family: var(--font-family-nav);
+    font-size: var(--font-size-nav);
+    margin: 0 0.25rem;
+}
+
+nav > a:first-of-type{
+    margin-left: 0;
+}
+
+header .col-8{
+    text-align: center;
+}
+
+header img{
+    height: 30px;
+    vertical-align: middle;
+}
+
+header .col-2:last-of-type{
+    text-align: right;
+}
+
+header i{
+    margin: 0 0.2rem;
+}
+
+header i:last-of-type{
+    margin-right: 0;
+}
