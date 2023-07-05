@@ -11,23 +11,23 @@
     --green: #018001;
     --dark: #1b1b1a;
     --font-family-nav: 'Montserrat SemiBold', sans-serif;
-    --font-size-nav: 1rem;
+    --font-size-nav: .75rem;
     --font-family-item: 'Montserrat SemiBold', sans-serif;
-    --font-size-item: 1rem;
+    --font-size-item: .8125rem;
     --font-family-brand: 'Montserrat Medium', sans-serif;
-    --font-size-brand: .875rem;
+    --font-size-brand: .6875rem;
     --font-family-price: 'Montserrat Medium', sans-serif;
-    --font-size-price: .875rem;
+    --font-size-price: .75rem;
     --font-family-discount: 'Montserrat Semibold', sans-serif;
-    --font-size-discount: .875rem;
+    --font-size-discount: .75rem;
     --font-family-label: 'Montserrat Semibold', sans-serif;
-    --font-size-label: .75rem;
+    --font-size-label: .625rem;
     --font-family-site-name: 'Montserrat SemiBold', sans-serif;
-    --font-size-site-name: 1.125rem;
+    --font-size-site-name: .75rem;
     --font-family-social: 'Montserrat SemiBold', sans-serif;
-    --font-size-social: .875rem;
+    --font-size-social: .625rem;
     --font-family-privacy: 'Montserrat Regular', sans-serif;
-    --font-size-privacy: 11px;
+    --font-size-privacy: .625rem;
 }
 
 .flex{
@@ -38,7 +38,7 @@ header{
     position: sticky;
     top: 0;
     z-index: 100;
-    height: 70px;
+    height: 60px;
     background-color: var(--primary);
     box-shadow: 0 0 3px var(--dark);
 }
@@ -79,7 +79,7 @@ footer{
 
 /* Start Header */
 header > .flex{
-    line-height: 70px;
+    line-height: 60px;
 }
 
 header a, footer a{
@@ -101,7 +101,7 @@ header .col-8{
 }
 
 header img{
-    height: 30px;
+    height: 26px;
     vertical-align: middle;
 }
 
@@ -110,7 +110,8 @@ header .col-2:last-of-type{
 }
 
 header i{
-    margin: 0 0.2rem;
+    font-size: .75rem;
+    margin: 0 0.25rem;
 }
 
 header i:last-of-type{
@@ -144,15 +145,15 @@ main img{
 }
 
 .heart{
-    font-size: 1.5rem;
+    font-size: 1.75rem;
     position: absolute;
-    top: 10px;
+    top: 0.5rem;
     right: 0;
-    width: 2rem;
-    height: 2rem;
+    width: 2.5rem;
+    height: 2.5rem;
     background-color: white;
     text-align: center;
-    line-height: 2rem;
+    line-height: 2.5rem;
     color: black;
 }
 
@@ -187,19 +188,19 @@ main img{
 
 .label{
     position: absolute;
-    bottom: 2rem;
+    bottom: 2.2rem;
     font-family: var(--font-family-label);
     font-size: var(--font-size-label);
     color: white;
 }
 
 .label > span{
-    padding: 0.25rem;
+    padding: 0.25rem 0.5rem;
 }
 
 .red{
     background-color: var(--red);
-    margin-right: 0.25rem;
+    margin-right: 0.1rem;
 }
 
 .green{
@@ -230,7 +231,7 @@ main img{
 }
 
 .footer-align{
-    line-height: 1.5rem;
+    line-height: 1.2rem;
     display: flex;
     flex-direction: column;
     justify-content: center;
