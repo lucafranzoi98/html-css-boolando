@@ -18,7 +18,7 @@
     --font-size-brand: .875rem;
     --font-family-price: 'Montserrat Medium', sans-serif;
     --font-size-price: .875rem;
-    --font-family-discount: 'Montserrat Bold', sans-serif;
+    --font-family-discount: 'Montserrat Semibold', sans-serif;
     --font-size-discount: .875rem;
     --font-family-label: 'Montserrat Semibold', sans-serif;
     --font-size-label: .75rem;
@@ -36,6 +36,8 @@
 
 header{
     position: sticky;
+    top: 0;
+    z-index: 100;
     height: 70px;
     background-color: var(--primary);
     box-shadow: 0 0 3px var(--dark);
@@ -62,6 +64,11 @@ a{
     text-decoration: none;
 }
 
+footer{
+    height: 70px;
+    background-color: var(--dark);
+    margin-top: 60px;
+}
 /* End utilities */
 
 /* Start Header */
